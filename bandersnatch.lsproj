@@ -2,8 +2,8 @@
     "lens_id": "",
     "document_id": "ffjMwVBO07Df6Fm_CYaE",
     "original_document_id": "ffjMwVBO07Df6Fm_CYaE",
-    "version": "1",
-    "lastChanged": "1546615399653",
+    "version": "2",
+    "lastChanged": "1548103069139",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -11,14 +11,14 @@
             "type": "Public",
             "major": "1",
             "minor": "7",
-            "patch": "0",
+            "patch": "1",
             "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
             "major": "1",
             "minor": "7",
-            "patch": "0",
+            "patch": "1",
             "build": "0"
         }
     },
@@ -96,7 +96,7 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "",
+            "icon_hash": "dfc7748a27ff6d1a2ec8384ee1590ad6",
             "icon_path": "icon.png",
             "hints": [
                 "lens_hint_tap"
@@ -591,15 +591,35 @@
                     "flags": "1",
                     "type": "1",
                     "subtype": "5"
+                },
+                {
+                    "resId": "858",
+                    "uid": "1548102370101138:7638",
+                    "name": "\/Resources\/Resource858",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "859",
+                    "uid": "1548102370102115:7650",
+                    "name": "Text",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "2",
+                    "type": "1",
+                    "subtype": "8"
                 }
             ]
         },
         "InspectorComponent": {
             "Component": {
-                "AudioEffectComponent": {
-                    "presetsMap": "",
-                    "samplesMap": ""
-                },
                 "FaceStretchVisual": {
                     "uidsToFeatureNamesWithIntensity": ""
                 }
@@ -619,7 +639,8 @@
                 "9": "1546536924361321:259894",
                 "10": "1546542291849399:280684",
                 "11": "1546544610571424:698602",
-                "12": "1546545253288801:763620"
+                "12": "1546545253288801:763620",
+                "13": "1548102370090476:7573"
             }
         },
         "LayerComponent": {
@@ -662,13 +683,13 @@
                                 "extension": "js"
                             },
                             {
-                                "name": "Deny_script",
-                                "resourceId": "824",
+                                "name": "Accept_script",
+                                "resourceId": "53",
                                 "extension": "js"
                             },
                             {
-                                "name": "Accept_script",
-                                "resourceId": "53",
+                                "name": "Deny_script",
+                                "resourceId": "824",
                                 "extension": "js"
                             },
                             {
@@ -745,6 +766,11 @@
                         "groups": "",
                         "resources": [
                             {
+                                "name": "ground_grid",
+                                "resourceId": "11",
+                                "extension": ""
+                            },
+                            {
                                 "name": "matte_shadow",
                                 "resourceId": "798",
                                 "extension": ""
@@ -752,11 +778,6 @@
                             {
                                 "name": "touch_collision",
                                 "resourceId": "800",
-                                "extension": ""
-                            },
-                            {
-                                "name": "ground_grid",
-                                "resourceId": "11",
                                 "extension": ""
                             }
                         ]
@@ -904,7 +925,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1546544610571424:698602"
+                    "1548102370090476:7573"
                 ]
             }
         },
