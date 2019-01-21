@@ -3,7 +3,7 @@
     "document_id": "ffjMwVBO07Df6Fm_CYaE",
     "original_document_id": "ffjMwVBO07Df6Fm_CYaE",
     "version": "2",
-    "lastChanged": "1548103291566",
+    "lastChanged": "1548104173329",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -104,7 +104,7 @@
             "hints": [
                 "lens_hint_tap"
             ],
-            "lens": "Tap",
+            "lens": "Bandersnatchh",
             "camera": "1",
             "lens_descriptors": ""
         },
@@ -647,41 +647,6 @@
         }
     },
     "controller": {
-        "InspectorController": {
-            "selection": {
-                "resources": [
-                    {
-                        "uid": "1546546985520872:1025728",
-                        "path_list": [
-                            "Diffuse"
-                        ]
-                    }
-                ]
-            }
-        },
-        "EffectsController": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "10": "",
-            "11": "",
-            "12": "",
-            "13": "",
-            "14": "",
-            "15": "",
-            "16": ""
-        },
-        "ObjectPrefabController": {
-            "state": {
-                "objectToInfo": ""
-            },
-            "importInfo": ""
-        },
         "ResourceController": {
             "tree": {
                 "name": "Root",
@@ -925,6 +890,41 @@
                     "path": "Countdown Timer  - Imgur"
                 }
             ]
+        },
+        "InspectorController": {
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1546546985520872:1025728",
+                        "path_list": [
+                            "Diffuse"
+                        ]
+                    }
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
         }
     }
 }
