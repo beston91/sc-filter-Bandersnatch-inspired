@@ -3,7 +3,7 @@
     "document_id": "ffjMwVBO07Df6Fm_CYaE",
     "original_document_id": "ffjMwVBO07Df6Fm_CYaE",
     "version": "2",
-    "lastChanged": "1548103069139",
+    "lastChanged": "1548103291566",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -28,6 +28,9 @@
                 [
                     [
                         "Countdown Timer  - Imgur"
+                    ],
+                    [
+                        "Default Textures"
                     ],
                     [
                         "Default Textures",
@@ -190,16 +193,6 @@
                     "additionalProperties": "",
                     "flags": "1",
                     "type": "2",
-                    "subtype": "0"
-                },
-                {
-                    "resId": "13",
-                    "uid": "1498868868171510:1508",
-                    "name": "\/Resources\/Resource13.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1",
-                    "type": "4",
                     "subtype": "0"
                 },
                 {
@@ -535,20 +528,6 @@
                     "subtype": "5"
                 },
                 {
-                    "resId": "847",
-                    "uid": "1546544610610986:698737",
-                    "name": "\/Resources\/Resource847",
-                    "sourceFilePath": "",
-                    "additionalProperties": {
-                        "pass_source": [
-                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
-                        ]
-                    },
-                    "flags": "3",
-                    "type": "2",
-                    "subtype": "0"
-                },
-                {
                     "resId": "854",
                     "uid": "1546545592985207:798899",
                     "name": "\/Resources\/Resource854.png",
@@ -638,9 +617,8 @@
                 "8": "1546536859556403:249034",
                 "9": "1546536924361321:259894",
                 "10": "1546542291849399:280684",
-                "11": "1546544610571424:698602",
-                "12": "1546545253288801:763620",
-                "13": "1548102370090476:7573"
+                "11": "1546545253288801:763620",
+                "12": "1548102370090476:7573"
             }
         },
         "LayerComponent": {
@@ -669,6 +647,41 @@
         }
     },
     "controller": {
+        "InspectorController": {
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1546546985520872:1025728",
+                        "path_list": [
+                            "Diffuse"
+                        ]
+                    }
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
         "ResourceController": {
             "tree": {
                 "name": "Root",
@@ -677,11 +690,6 @@
                         "name": "Scripts",
                         "groups": "",
                         "resources": [
-                            {
-                                "name": "WorldObjectController",
-                                "resourceId": "13",
-                                "extension": "js"
-                            },
                             {
                                 "name": "Accept_script",
                                 "resourceId": "53",
@@ -857,10 +865,6 @@
                     "path": "Textures\/ground_grid_mask.png"
                 },
                 {
-                    "id": "13",
-                    "path": "Scripts\/WorldObjectController.js"
-                },
-                {
                     "id": "53",
                     "path": "Scripts\/Accept_script.js"
                 },
@@ -921,36 +925,6 @@
                     "path": "Countdown Timer  - Imgur"
                 }
             ]
-        },
-        "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1548102370090476:7573"
-                ]
-            }
-        },
-        "EffectsController": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "10": "",
-            "11": "",
-            "12": "",
-            "13": "",
-            "14": "",
-            "15": "",
-            "16": ""
-        },
-        "ObjectPrefabController": {
-            "state": {
-                "objectToInfo": ""
-            },
-            "importInfo": ""
         }
     }
 }
